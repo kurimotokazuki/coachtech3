@@ -1,0 +1,309 @@
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 8px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 50px;
+}
+
+.header-nav ul{
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+#eyecatch {
+  height: 600px;
+  background: url(../img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#eyecatch p {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(223, 217, 217);
+  line-height: 1;
+}
+
+#item1 {
+  width: 800px;
+  height: 70px;
+  background: white;
+  position: absolute;
+  font-weight: bold;
+  color: black;
+  top: 608px;
+  left: 440px;
+}
+
+#item1 h1 {
+  font-size: 14px;
+}
+
+#items {
+  width: 190px;
+  height: 70px;
+  background: black;
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  top: 608px;
+  left: 1240px;
+}
+
+.card {
+  width: 1900px;
+  height: 400px;
+  background-color: black;
+  padding: 200px 300px 10px; /* 上20px 左右12px 下10px */
+  color: white;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  transition: 1s;
+}
+
+.title,
+.text {
+  margin: 0;
+}
+
+.text {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #fff;
+  margin: 30px 0;
+  z-index: 20;
+  position: absolute;
+}
+
+.lank {
+  position: absolute;
+  top: 1050px;
+}
+
+.mission-img img{
+   position: absolute;
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+   top: 900px;
+  left: 50%;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+#about {
+  margin: 150px ;
+  background-color: gray;
+  width: 80%;
+  height: 1000px;
+}
+
+#about .section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.about-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: 50%;
+}
+
+.about-right h3,
+.about-right p {
+  margin-bottom: 15px;
+}
+
+.about-left,
+.about-right {
+  width: 45%;
+}
+
+.about-text {
+  list-style-position: inside;
+  font-size: 10px;
+}
+
+.about-left img{
+  display: block;
+  width: 100%;
+}
+
+#company {
+  background: url(../img/company.jpeg);
+  height: 300px;
+  width : 900px;
+  margin: 50px;
+   background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#company p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+}
+
+#company h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+}
+
+#recruit {
+  background: url(../img/recruit.jpg);
+  height: 300px;
+  width : 900px;
+  margin: 50px;
+   background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#recruit p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+}
+
+#recruit h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+}
+
+.parent {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#FAQ {
+  width: 1000px;
+  height: 150px;
+  background-color: black;
+  margin: 200px 200px 200px; /* 上20px 左右12px 下10px */
+  color: white;
+}
+
+#FAQ h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  padding-top: 20px;
+}
+
+#FAQ p {
+  font-size: 16px;
+  font-display: center;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.contact {
+  height: 600px;
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact h1 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contact h2 {
+  color: white;
+  text-align: center;
+}
+
+.contact h3 {
+  color: white;
+  text-align: center;
+}
+
+.contact p {
+  color: white;
+  font-size: 8px;
+  text-align: center;
+}
+
+.link {
+  display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
+  text-align: center;
+  margin: 10px 0;
+  left: 10%;
+  font-size: 18px;
+  color: black;
+   text-align: center;
+}
+
+.button {
+ color: white;
+ background-color:rgba(0,0,0,0.1)
+}
+
+#footer {
+  height: 80px;
+  text-align: center;
+  font-size: 8px;
+  line-height: 80px;
+  background: black;
+  color: white;
+}
