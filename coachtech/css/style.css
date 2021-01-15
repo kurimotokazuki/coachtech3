@@ -1,0 +1,511 @@
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 8px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 50px;
+}
+
+.header-nav ul{
+  display: flex;
+  border: 1px solid black;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+#eyecatch {
+  height: 600px;
+  background: url(../img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#eyecatch p {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+   transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(223, 217, 217);
+  line-height: 1;
+}
+
+#item1 {
+  width: 800px;
+  height: 70px;
+  background: white;
+  position: absolute;
+  font-weight: bold;
+  color: black;
+  top: 610px;
+  left: 450px;
+}
+
+#item1 p {
+  font-size: 8px;
+}
+
+#item1 h1 {
+  font-size: 14px;
+}
+
+#items {
+  width: 190px;
+  height: 70px;
+  background: black;
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  top: 610px;
+  left: 1230px;
+}
+
+.card {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  padding: 200px 300px 10px; /* 上20px 左右12px 下10px */
+  color: white;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  transition: 1s;
+}
+
+.title,
+.text {
+  margin: 0;
+}
+
+.text {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #fff;
+  margin: 30px 0;
+  z-index: 20;
+  position: absolute;
+}
+
+.lank {
+  position: absolute;
+  top: 1050px;
+}
+
+.mission-img img{
+   position: absolute;
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+   top: 900px;
+  left: 40%;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+
+#about{
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 10%;
+  background: rgb(192, 189, 189);
+}
+
+
+
+#about h2{
+  text-align: center;
+   padding: 20px 0;
+}
+
+.about-wrap{
+  position: relative;
+   margin-bottom: 10%;
+}
+
+.about-card-left, .about-card-right{
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  background: #fff;
+  width: 40%;
+  padding: 5% 5%;
+  box-sizing: border-box;
+}
+
+.about-card-left{
+  left: 40%;
+}
+
+#about .button{
+  padding: 10px 20px;
+  margin-left: 250px;
+  background: #fff;
+  color: #000;
+}
+
+img {
+  display: block;
+}
+
+.camera{
+  width: 50%;
+  margin-left: 50%;
+}
+
+.smoke{
+  width: 50%;
+  margin: 0 50% 0 0;
+}
+
+#company {
+  background: url(../img/company.jpeg);
+  height: 300px;
+  width : 900px;
+  margin-top: 200px;
+  margin-right: 35px;
+   background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#company p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+}
+
+#company h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+}
+
+#recruit {
+  background: url(../img/recruit.jpg);
+  height: 300px;
+  width : 900px;
+  margin-top: 200px;
+  margin-left: 35px;
+   background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#recruit p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+}
+
+#recruit h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+}
+
+.parent {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#FAQ {
+  width: 1000px;
+  height: 150px;
+  background-color: black;
+  margin: 200px 200px 200px; /* 上20px 左右12px 下10px */
+  color: white;
+}
+
+#FAQ h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  padding-top: 20px;
+}
+
+#FAQ p {
+  font-size: 16px;
+  font-display: center;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.contact {
+  height: 600px;
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact h1 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.contact h2 {
+  color: white;
+  text-align: center;
+}
+
+.contact h3 {
+  color: white;
+  text-align: center;
+}
+
+.contact p {
+  color: white;
+  font-size: 8px;
+  text-align: center;
+}
+
+.link {
+  display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
+  text-align: center;
+  margin: 10px 0;
+  left: 10%;
+  font-size: 18px;
+  color: black;
+   text-align: center;
+}
+
+.button {
+ color: white;
+ background-color:rgba(0,0,0,0.1)
+}
+
+#footer {
+  height: 80px;
+  text-align: center;
+  font-size: 8px;
+  line-height: 80px;
+  background: black;
+  color: white;
+}
+
+.footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+#hamburger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+  top: 15px;
+  right: 20px;
+  transition: 0.4s;
+}
+
+#hamburger span {
+  position: absolute;
+  left: 2px;
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+  transition: 0.8s;
+}
+
+#hamburger span:nth-of-type(1) {
+  top: 10px; /* ハンバーガーメニューの1本目の棒 */
+}
+
+#hamburger span:nth-of-type(2) {
+  top: 20px; /* ハンバーガーメニューの2本目の棒 */
+}
+
+#hamburger span:nth-of-type(3) {
+  top: 30px; /* ハンバーガーメニューの3本目の棒 */
+}
+
+.header-nav {
+  display: none; /* デスクトップのナビを消す */
+}
+
+  .about-card-right,
+  .about-card-left {
+   width: 90%;
+  position: static;
+  margin: 0 5%;
+  }
+
+
+
+  .about-wrap {
+    flex-wrap: wrap;
+    position: static;
+  }
+
+#about .button{
+margin: 0 auto;
+}
+
+  .camera,
+  .smoke {
+     width: 90%;
+ margin: 0 5%;
+ padding: 0;
+  }
+
+  .card {
+    flex-wrap: wrap;
+    width: 100%;
+   padding: 0%;
+  }
+
+  .title {
+    flex-wrap: wrap;
+   padding: 20px 40px 10px;
+  }
+
+  .text {
+  flex-wrap: wrap;
+  padding: 20px 40px 10px;
+  }
+
+  .mission-img img{
+  top: 1000px;
+  }
+
+  .batton {
+  background-color: white;
+  margin-left: 30px;
+  top: 50px;
+  z-index: 30;
+  }
+
+  #about {
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #eyecatch {
+  flex-wrap: wrap;
+  }
+
+  #eyecatch p {
+  text-align: center;
+  transform: translate(-20%, -100%);
+  }
+
+  #item1 {
+    width: 75%;
+    left: 9px;
+  }
+
+  #item1 h1 {
+    top: 0%;
+    padding-left: 5%;
+  }
+
+  #items {
+   width: 25%;
+   left: 270px;
+   text-align: center;
+  }
+
+  .business-cat {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .parent {
+    flex-wrap: wrap;
+  }
+
+
+
+  label {
+    display: block;
+  }
+
+  #company {
+     margin: 0 auto;
+  }
+
+  #recruit {
+    margin: 0 auto;
+  }
+
+  #FAQ {
+    flex-wrap: wrap;
+    width: 80%;
+     margin: 0 auto;
+     margin-bottom: 5%;
+  }
+
+  .form div {
+    margin: 0 auto;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+ .footer-logo {
+   margin: 0 auto;
+  text-align: center;
+  top: 60%;
+  left: 40%;
+ }
+
+  input,textarea {
+    width: 100%;
+  }
+
+}
